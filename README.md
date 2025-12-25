@@ -193,6 +193,29 @@ All agent endpoints accept POST requests with a `MessageRequest` body and return
 - Alert notifications
 - Responsive design
 
+## 📸 User Interface
+
+### Input Form
+The main interface allows clinicians to select a patient, input clinical status, and upload wearable data:
+
+![Pulse Nexus Input Form](https://github.com/ROHAN-3105/pulse-nexus-adk/raw/main/frontend/screenshots/input-form.png)
+
+### Analysis Dashboard
+After analysis, the dashboard displays comprehensive patient metrics with vital signs trends, activity data, health assessment, and real-time alerts:
+
+![Pulse Nexus Dashboard](https://github.com/ROHAN-3105/pulse-nexus-adk/raw/main/frontend/screenshots/dashboard-view.png)
+
+**Key Dashboard Features:**
+- ✅ Real-time vital signs monitoring (Heart Rate, SpO2, Temperature, Respiration Rate)
+- ✅ 24-Hour vital signs trends with line charts
+- ✅ Activity and mobility analytics with bar charts
+- ✅ Comprehensive health assessment radar chart
+- ✅ Recent alerts with severity indicators
+- ✅ Agent summaries from Data Analyst, Clinical Core, and Bio Sentry
+- ✅ Risk assessment badges (Green, Yellow, Red)
+- ✅ Clinical handover notes with copy-to-clipboard functionality
+- ✅ Dashboard and New Analysis navigation buttons
+
 ## 🛠️ Dependencies
 
 ### Python Packages
