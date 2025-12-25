@@ -6,7 +6,7 @@ clinical_core_root = LlmAgent(
     name="clinical_core_agent",
     model="gemini-2.0-flash-exp",
     description=(
-        "Clinical reasoning core that combines Bio-Sentry and Data-Analyst "
+        "Clinical reasoning core that combines Bio-Sentry and Data-Analyst agents "
         "outputs, and consults local guidelines before deciding."
     ),
     instruction="""
