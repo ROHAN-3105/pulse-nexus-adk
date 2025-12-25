@@ -568,12 +568,21 @@ Generated: ${new Date().toLocaleString()}`
                   <p className="text-sm opacity-90">{selectedPatient.name}</p>
                 </div>
               </div>
-              <button
-                onClick={() => setShowDashboard(false)}
-                className="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded-lg"
-              >
-                New Analysis
-              </button>
+              <div className="flex gap-3">
+                <button
+                  onClick={() => setShowDashboard(true)}
+                  className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg font-semibold flex items-center gap-2"
+                >
+                  <BarChart3 className="w-4 h-4" />
+                  Dashboard
+                </button>
+                <button
+                  onClick={() => setShowDashboard(false)}
+                  className="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded-lg"
+                >
+                  New Analysis
+                </button>
+              </div>
             </div>
 
             <PatientDashboard analysisResult={analysisResult} patientData={selectedPatient} />
