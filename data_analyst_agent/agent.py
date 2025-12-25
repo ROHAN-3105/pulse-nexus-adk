@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-# Load project-root .env once per process
+# Load project-root .env once per proces
 root_env = Path(__file__).resolve().parents[1] / ".env"
 if root_env.exists():
     load_dotenv(root_env)
