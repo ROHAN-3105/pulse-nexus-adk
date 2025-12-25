@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Load project-root .env once per process
 root_env = Path(__file__).resolve().parents[1] / ".env"
 if root_env.exists():
-    load_dotenv(root_env)
+    load_dotenv(root_env) 
 # --- end env loader ---
 
 from google.adk.agents import Agent
