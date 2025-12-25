@@ -1,5 +1,8 @@
 # Pulse Nexus ADK
-
+TEam Name - Mavericks
+Team ID - WX0izc8EOUaM2IJ
+Team leader - PV Rohan
+Team Member - Oaj Borwankar
 **Pulse Nexus ADK** is an advanced healthcare analytics platform powered by AI-driven agents. It provides real-time wearable data analysis, clinical guidance, and biosecurity monitoring through a modular multi-agent architecture.
 
 ## 🎯 Project Overview
